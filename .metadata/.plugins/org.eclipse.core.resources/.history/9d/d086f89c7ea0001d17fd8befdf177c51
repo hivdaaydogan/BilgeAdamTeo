@@ -1,0 +1,17 @@
+package com.hivdaaydogan;
+
+import java.util.Scanner;
+
+public class KullanicidanVeriAlmaScanner {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);  // system.in demek console'dan sayı almak.
+		System.out.println("Lütfen bir sayı giriniz: ");
+		int sayi1 = 0;
+		sayi1 = input.nextInt("Girdiğiniz sayı: " + sayi1);
+		
+
+	}
+
+}
