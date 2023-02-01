@@ -1,0 +1,24 @@
+package com.hivdaaydogan;
+
+public class VeriTipleriKarakter {
+
+	public static void main(String[] args) {
+		
+		// char veritipi :
+		// 1 Byte
+		char charValue = 'A';   // ASCII Tablosundaki karşılığı: 65
+		
+		
+		// Soru:
+		char charValue2 = 65;
+	
+		
+		// Soru:
+		char charValue3 = 84;
+		System.out.println(charValue3);
+		
+		
+
+	}
+
+}

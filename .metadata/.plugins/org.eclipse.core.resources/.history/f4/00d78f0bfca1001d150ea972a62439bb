@@ -1,0 +1,30 @@
+package com.hivdaaydogan;
+
+public class DongulerFor {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Merhaba 0");
+		System.out.println("Merhaba 1");
+		System.out.println("Merhaba 2");
+		System.out.println("Merhaba 3");
+		
+		// Bir şeyi n kere yazdıracaksam kaç kere saydığımı kontrol edebilmek için bir değişkene ihtiyacım var.
+		// 0 değişken de genelde for döngülerinde i veya j isminde tutulur/kullanılır. size kalmış...
+		
+		// for loop - for döngüsü
+		for (int i=0;i<4;i++) {
+			System.out.println("Merhaba " + i);
+		}
+		
+		for (int sayac=0;sayac<3;sayac++) {
+			System.out.println("Merhaba");
+			System.out.println("Java");
+		}
+		
+		
+
+
+	}
+
+}
