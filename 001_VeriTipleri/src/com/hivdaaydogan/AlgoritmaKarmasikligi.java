@@ -27,6 +27,8 @@ public class AlgoritmaKarmasikligi {
 		long endTime = System.currentTimeMillis();
 		System.out.println("İşlem süresi : " + (endTime - startTime) + " milisaniye.");
 
+		
+		
 	}
 
 }

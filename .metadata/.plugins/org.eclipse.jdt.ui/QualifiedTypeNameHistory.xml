@@ -2,6 +2,16 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="com.alikaya.YardimciSinif"/>
+    <fullyQualifiedTypeName name="com.hivdaaydogan.Main"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="com.hivdaaydogan.Kitap"/>
+    <fullyQualifiedTypeName name="com.alikaya.ParalelKenar"/>
+    <fullyQualifiedTypeName name="com.alikaya.Ucgen"/>
+    <fullyQualifiedTypeName name="com.hivdaaydogan.Otomobil"/>
+    <fullyQualifiedTypeName name="com.hivdaaydogan.Motor"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
