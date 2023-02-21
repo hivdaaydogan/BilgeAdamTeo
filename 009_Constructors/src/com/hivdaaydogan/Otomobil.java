@@ -21,6 +21,16 @@ public class Otomobil {
 		this.setYil(yil);
 		this.setMotor(motor);
 	}
+	
+	public Otomobil(String marka, String model, int yil, int aracinKm, int motorHacmi, String saseNo, int yakitTuketimi) {
+		this.setAracinKm(aracinKm);
+		this.setMarka(marka);
+		this.setModel(model);
+		this.setYil(yil);
+		this.motor = new Motor(motorHacmi,saseNo,yakitTuketimi);
+		// Aşağıdaki gibi de doğru olur.
+		// this.setMotor(new Motor(motorHacmi,saseNo,yakitTuketimi));
+	}
 
 	
 	public Otomobil(String marka, String model) {
@@ -41,6 +51,7 @@ public class Otomobil {
 		this.yil = yil;
 		this.setMotor(motor);;
 	}
+
 
 
 	public void araciSur(int km) {

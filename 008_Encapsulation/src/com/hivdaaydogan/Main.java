@@ -61,6 +61,17 @@ public class Main {
 		System.out.println("oto2 mot hacmi: " + otomobil2.getMotor().getMotorHacmi());
 		
 		
+		//
+		System.out.println();
+		Otomobil otomobil3 = new Otomobil();
+		otomobil3.setMarka("Fiat");
+		otomobil3.setModel("Aegea");
+		otomobil3.setMotor(new Motor());
+		otomobil3.getMotor().setYakitTuketimi(8);
+		System.out.println(otomobil3.getMotor().getYakitTuketimi());
+		System.out.println(otomobil3);
+		
+		
 		
 		
 		

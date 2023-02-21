@@ -11,35 +11,47 @@ public class Otomobil {
 	private int yil;        // Sayısal veri tipleri 0 olarak initialize edilir.
 	private int aracinKm;   // Sayısal veri tipleri 0 olarak initialize edilir.
 	private Motor motor;    // Otomobil sınıfının içinde farklı bir sınıfın nesnesini üye değişke olarak tutuyorum
+	private int depodakiYakit;
+	private final int depoHacmi;
 	
 	
+
+
 	// Parametre : Bir metodun parantez içinde aldığı değişkenlere denir. 
-	public Otomobil (String marka, String model, int yil, int aracinKm, Motor motor) {
+	public Otomobil (String marka, String model, int yil, int aracinKm, Motor motor,int depoHacmi) {
 		this.setAracinKm(aracinKm);
 		this.setMarka(marka);
 		this.setModel(model);
 		this.setYil(yil);
 		this.setMotor(motor);
+		this.depoHacmi = depoHacmi;
+		this.depodakiYakit = 0;
+	}
+	
+	public Otomobil(String marka, String model, int yil, int aracinKm, int motorHacmi, String saseNo, int yakitTuketimi,int depoHacmi) {
+		this.setAracinKm(aracinKm);
+		this.setMarka(marka);
+		this.setModel(model);
+		this.setYil(yil);
+		this.motor = new Motor(motorHacmi,saseNo,yakitTuketimi);
+		// Aşağıdaki gibi de doğru olur.
+		// this.setMotor(new Motor(motorHacmi,saseNo,yakitTuketimi));
+		this.depoHacmi = depoHacmi;
+		this.depodakiYakit = 0;
 	}
 
 	
-	public Otomobil(String marka, String model) {
-		this.marka = marka;
-		this.model = model;
-	}
-	
-	
-	public Otomobil() {
-		
-	}
-	
 
+	public int getDepodakiYakit() {
+		return depodakiYakit;
+	}
 
-	public Otomobil(String model, int yil, Motor motor) {
-		super();
-		this.model = model;
-		this.yil = yil;
-		this.setMotor(motor);;
+	public void setDepodakiYakit(int depodakiYakit) {
+		this.depodakiYakit = depodakiYakit;
+	}
+
+	public int getDepoHacmi() {
+		return depoHacmi;
 	}
 
 
@@ -112,14 +124,14 @@ public class Otomobil {
 		}
 	}
 
-
-
 	@Override
 	public String toString() {
 		return "Otomobil [marka=" + marka + ", model=" + model + ", yil=" + yil + ", aracinKm=" + aracinKm + ", motor="
-				+ motor + "]";
+				+ motor + ", depodakiYakit=" + depodakiYakit + ", depoHacmi=" + depoHacmi + "]";
 	}
-	
+
+
+
 
 	
 

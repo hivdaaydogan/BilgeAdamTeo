@@ -38,11 +38,19 @@ public class Main {
 		                                               // üye olarak atamadık.
 		otomobil3.setMotor(new Motor(2000, "WE33445", 7));
 		System.out.println(otomobil3.getMotor());
+		otomobil3.getMotor().setMotorHacmi(3000);
+		otomobil3.getMotor().setYakitTuketimi(10);
+		System.out.println(otomobil3.getMotor());
 		
 		
 		//
 		System.out.println();
-		otomobil3.getMotor().setBAziMotorBilgileri(3000, 9);
+		otomobil3.getMotor().setBAziMotorBilgileri(3500, 12);
+		System.out.println(otomobil3);
+		
+		// Son Örnek
+		System.out.println();
+		Otomobil otomobil5 = new Otomobil("Skoda", "Superb", 2021, 57500, 1500, "SS111222", 9);
 	}
 
 }
