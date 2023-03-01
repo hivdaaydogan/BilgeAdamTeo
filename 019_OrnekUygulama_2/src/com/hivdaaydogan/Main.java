@@ -49,6 +49,33 @@ public class Main {
 		
 		okul1.okuldanSinifCikarIterators("1C");
 		okul1.siniflariYazdir();
+		
+		
+		System.out.println();
+		
+		Okul okul2 = new Okul("Atatürk İlkokulu", "Beytepe Ankara");
+		okul2.sinifEkle(new Sinif("1A","Zemin kat 105 nolu oda"));
+		okul2.sinifEkle(new Sinif("1B","3. kat 108 nolu oda"));
+		
+		// 1A sınıfına öğrenci ekleyelim.
+		Sinif snf = okul2.getSinif("1A");
+		if (snf != null) {
+			snf.sinifaOgrenciEkle("Tolga", "Kaya",111,0);
+			snf.sinifaOgrenciEkle("Mustafa","Kaya",112,0);
+		}else {
+			System.out.println("Sınıf bulunamadı!");
+		}
+		okul2.okuldakiOgrencileriYazdir();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

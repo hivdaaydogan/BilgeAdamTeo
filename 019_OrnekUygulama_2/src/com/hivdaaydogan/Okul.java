@@ -83,6 +83,17 @@ public class Okul {
 	}
 	
 	
+	// Parametre olarak sinifAdi girilen ve sonuçta ilgili sinif nesnesini return eden bir metot
+	public Sinif getSinif(String sinifAdi) {
+		for (Sinif sinif : siniflarList) {
+			if (sinif.getSinifAdi().equalsIgnoreCase(sinifAdi)) {
+				return sinif;
+			}
+		}
+		return null;
+	}
+	
+	
 
 	public String getOkulAdi() {
 		return okulAdi;
