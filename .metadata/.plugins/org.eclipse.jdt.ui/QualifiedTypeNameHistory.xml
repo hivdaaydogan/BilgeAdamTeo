@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.Class"/>
     <fullyQualifiedTypeName name="com.alikaya.YardimciSinif"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.Kitap"/>
@@ -12,17 +11,14 @@
     <fullyQualifiedTypeName name="com.alikaya.Ucgen"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.Otomobil"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.Motor"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.Ogrenci"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="com.hivdaadydogan.ITarihSaatGoster"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.Main"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ListIterator"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.StackSoru"/>
@@ -30,4 +26,16 @@
     <fullyQualifiedTypeName name="java.util.Queue"/>
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.hivdaaydogan.repository.entity.Ogrenci"/>
+    <fullyQualifiedTypeName name="com.hivdaaydogan.repository.OgrenciRepository"/>
+    <fullyQualifiedTypeName name="com.hivdaaydogan.controller.OgrenciController"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.hivdaaydogan.controller.OgretmenController"/>
+    <fullyQualifiedTypeName name="com.hivdaaydogan.repository.entity.Ogretmen"/>
+    <fullyQualifiedTypeName name="com.hivdaaydogan.repository.OgretmenRepository"/>
+    <fullyQualifiedTypeName name="com.hivdaaydogan.utility.DataBase"/>
+    <fullyQualifiedTypeName name="com.hivdaaydogan.MainEnumOrnek.Mevsimler"/>
 </qualifiedTypeNameHistroy>
