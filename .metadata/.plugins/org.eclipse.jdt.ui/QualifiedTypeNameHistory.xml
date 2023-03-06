@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="java.lang.Class"/>
     <fullyQualifiedTypeName name="com.alikaya.YardimciSinif"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.Kitap"/>
     <fullyQualifiedTypeName name="com.alikaya.ParalelKenar"/>
     <fullyQualifiedTypeName name="com.alikaya.Ucgen"/>
@@ -26,11 +25,9 @@
     <fullyQualifiedTypeName name="java.util.Queue"/>
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.repository.entity.Ogrenci"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.repository.OgrenciRepository"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.controller.OgrenciController"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.controller.OgretmenController"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.repository.entity.Ogretmen"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.repository.OgretmenRepository"/>
@@ -46,4 +43,10 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="com.hivdaaydogan.AsiriHizException"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collector"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
 </qualifiedTypeNameHistroy>
