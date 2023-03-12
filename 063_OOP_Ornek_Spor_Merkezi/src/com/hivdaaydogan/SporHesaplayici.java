@@ -36,6 +36,7 @@ public class SporHesaplayici {
 		}
 		
 		return harcananKalori;
+		
 	}
 
 }
